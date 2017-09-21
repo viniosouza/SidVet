@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">SidVet</string>
+
+    <string name="hint_email">E-mail</string>
+
+    <string name="hint_senha">Senha</string>
+
+    <string name="login">Entrar</string>
+
+    <string name="email_error_msg">Digite um email válido</string>
+    <string name="senha_error_msg">A senha precisa ter 8(oito) caracteres</string>
+
+    <string name="erro_Login">Usuário ou senha INVÁLIDOS</string>
+
+    <string name="configuracoes">configurações </string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">Próximo</string>
+    <string name="skip">PULAR</string>
+    <string name="start">ENTENDI </string>
+
+    <string name="slide_1_title">Bem vindo ao Sidvet</string>
+    <string name="slide_1_desc">Aqui tratamos seu cachorrinho como ele precisa.</string>
+
+    <string name="slide_2_title">Os melhores veterinarios</string>
+    <string name="slide_2_desc">Seu pet será muito bem tratado</string>
+
+    <string name="slide_3_title">Grandes Descontos</string>
+    <string name="slide_3_desc">Melhores descontos em cada serviço que oferecemos!</string>
+
+    <string name="slide_4_title">Venha conhecer o SidVet</string>
+    <string name="slide_4_desc">O melhor lugar para trazer o seu cão!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+    <string name="home">Home</string>
+    <string name="perfil">Perfil</string>
+
+    <string name="ola">Ola</string>
+
+    <string name="tamanho">Tamanho: </string>
+    <string name="Idade">Idade: </string>
+    <string name="sexo">Sexo: </string>
+    <string name="prontuario">Prontuário</string>
+    <string name="numeroPront">Nº do Pontuário</string>
+    <string name="unidade">Unidade</string>
+    <string name="dono">Dono(a)</string>
+    <string name="procedimento">Procedimento</string>
+    <string name="data">Data da Visita</string>
+    <string name="nomeDog">Nome do Cachorro</string>
+    <string name="cep">CEP</string>
+    <string name="cpf">CPF</string>
+    <string name="dataNasc">Data de Nascimento</string>
+    <string name="pets">Cachorros</string>
+    <string name="sobre">Sobre</string>
+
+    <string name="falha">Falha na autenticação!</string>
+
+    <string name="sobre1">A SidVet é um centro veterinário que atua no mercado desde 1994. O nosso foco é o atendimento clínico e cirúrgico, como prioridade. </string>
+    <string name="sobre2">O objetivo é a atuação na saúde animal visando garantir a qualidade de vida aos pacientes. Buscando o diagnóstico de maneira precoce, aumentando a longevidades deles. </string>
+    <string name="agradecimento">Obrigado por escolher a SidVet... </string>
+    <string name="bemVindo">Bem Vindo ao SidVet!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

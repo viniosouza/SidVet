@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.senai.sp.informatica.sidvet.fragment.ClienteFragment">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/nome_cliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Joãozinho"
+                android:textSize="28sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cpf"
+                android:textSize="24sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/preto"/>
+
+            <!-- cpf do Cliente-->
+            <TextView
+                android:id="@+id/cpf_perfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="41403878724"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="50dp"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dataNasc"
+                android:textSize="24sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/preto"/>
+
+            <!-- PROCEDIMENTO-->
+            <TextView
+                android:id="@+id/dataNasc_cliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20/06/1997 "
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="50dp"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sexo"
+                android:textSize="24sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/preto"/>
+
+
+
+            <!-- Nome do CACHORRO-->
+            <TextView
+                android:id="@+id/sexo_perfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MASCULINO"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="50dp"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cep"
+                android:textSize="24sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/preto"/>
+
+            <!-- CEP -->
+            <TextView
+                android:id="@+id/cep_perfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01201-030"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

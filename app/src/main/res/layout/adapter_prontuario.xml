@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/prontuario"
+            android:textSize="28sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/numeroPront"
+            android:textSize="24sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/preto"/>
+
+        <!-- ID do PRONTUÁRIO-->
+        <TextView
+            android:id="@+id/numero_adapter_prontuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="000120"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unidade"
+            android:textSize="24sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/preto"/>
+
+        <!-- Nome da UNIDADE-->
+        <TextView
+            android:id="@+id/unidade_adapter_prontuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Osasco"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dono"
+            android:textSize="24sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/preto"/>
+
+        <!-- Nome do DONO-->
+        <TextView
+            android:id="@+id/dono_adapter_prontuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emilly"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nomeDog"
+            android:textSize="24sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/preto"/>
+
+        <!-- Nome do CACHORRO-->
+        <TextView
+            android:id="@+id/pet_adapter_prontuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bolota"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/procedimento"
+            android:textSize="24sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/preto"/>
+
+        <!-- PROCEDIMENTO-->
+        <TextView
+            android:id="@+id/procedimento_adapter_prontuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vacina e Exames "
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data"
+            android:textSize="24sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/preto"/>
+
+        <!-- PROCEDIMENTO-->
+        <TextView
+            android:id="@+id/data_adapter_prontuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20/06/2017 "
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
